@@ -7,9 +7,6 @@
                     :modules="modules"
                     :slides-per-view="5"
                     :space-between="50"
-                    navigation
-                    :pagination="{ clickable: true }"
-                    :scrollbar="{ draggable: true }"
                     @swiper="onSwiper"
                     @slideChange="onSlideChange"
                 >
